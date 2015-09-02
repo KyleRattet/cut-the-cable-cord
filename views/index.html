@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Time to Cut the Cord?</title>
+    <!-- Bootstrap Core CSS -->
+
+    <!-- <link href="stylesheets/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+
+    <!-- Custom CSS -->
+    <link href="stylesheets/scrolling-nav.css" rel="stylesheet">
+
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!--   <header>
+    <h1>Should You Cut the Cable Cord?</h1>
+
+
+
+  </header> -->
+    <!-- Navigation -->
+
+    <nav id="nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div id="testText"><h1 id='testText2'>Should You Cut the Cable Cord?</h1></div>
+          <div class="row">
+            <div class="col-xs-12 text-center">
+
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+
+            </div>
+          </div>
+          </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                <ul class="nav navbar-nav">
+
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Should You Cut the Cord?</h1>
+                    <p>Cable TV Alternatives - A Usage Survey and Calculator Guide to Cutting the Cord</p>
+                    <a id="start" class="btn btn-primary btn-lg page-scroll animated infinite bounce" href="#survey">Take Survey</a>
+                </div>
+            </div>
+           <!--  {% raw %}
+            <p>Say something to the world - <input type="text" ng-model="greeting" ng-init="greeting='Hello, '"></p>
+    <p>{{ greeting }} world!</p>
+    {% endraw %} -->
+        </div>
+    </section>
+
+    <!-- Survey Section -->
+    <section id="survey" class="survey-section">
+
+      <div class="container">
+        <div class="row">
+
+        <div class="col-xs-12">
+
+        <div id="usageHeader">
+        <h1>Usage Survey</h1>
+              <p>What are your current TV viewing habits, preferences, and streaming capabilities?</p>
+        </div>
+          <div class="col-xs-12 text-left">
+            <div id="renderQuestion"></div>
+          </div>
+          <div class="col-xs-4 text-left">
+            <div id="renderResponse"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="calculator-section">
+
+      <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+
+              <h1>Compare Your Current Bundle Cost to Alternatives</h1>
+              <p>How much are you currently paying for cable? What would some alternatives cost?</p>
+              <br>
+              <div id="cost1">
+              <h3 align="left">1. How much is your cable and internet bundle costing you monthly?</h3>
+
+            <div class="col-xs-3">
+              <form id="menu-submit" align="left">
+              <div class="form-group">
+                Monthly Cable Cost: <input type="number" class="form-control" id="monthly-cable-cost" placeholder="Monthly Bill" required>
+                <input id="monthly-cable-submit" class="btn btn-primary btn-sm" type="submit" value="Submit">
+              </div>
+
+            </div>
+
+            </div>
+
+
+            </div>
+
+            </div>
+
+        <div class="row">
+
+            <div id="cost2" class="col-xs-12">
+
+              <h3 align="left">2. How much would an internet only plan cost each month?</h3>
+
+
+            <div class="col-xs-3" align="left">
+              <form id="menu-submit" align="left">
+              <div class="form-group">
+                Monthly Internet Cost:<input type="number" class="form-control" id="monthly-internet-cost" value="40" required>
+                <input id="monthly-internet-submit" class="btn btn-primary btn-sm" type="submit" placeholder="40" value="Submit" >
+              </div>
+
+              <p><em>Comcast Performance 25Mbps for $40/month</em></p>
+
+            </div>
+
+
+
+
+
+            </div>
+          </div>
+
+    <div class="row">
+
+      <div id="cost3" class="col-xs-12 ">
+
+      <h3 align="left">3. Select the Streaming Services You'd Subscribe To If You Didn't Have Cable</h3>
+
+        <div class="col-xs-12 col-md-4" align="left">
+        <p align="left"><em>*All prices are per month</em></p>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="9">
+              <strong>Netflix ($9)</strong> - Sitcoms, dramas, movies, kids programs, original shows
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="20">
+              <strong>HBO GO ($20)</strong> - Sitcoms, dramas, movies
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="8">
+              <strong>Hulu ($8)</strong> - Sitcoms, dramas, original shows
+            </label>
+          </div>
+
+        </div>
+
+        <div class="col-xs-12 col-md-4" align="left">
+
+        <div class="checkbox">
+            <label>
+              <input type="checkbox" value="8.25">
+              <strong>Amazon Instant Video ($8.25)</strong> - Sitcoms, dramas, kids programs, original shows
+            </label>
+
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="6">
+              <strong>CBS All Access ($6)</strong> - Sitcoms, dramas, news, sports
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="25">
+              <strong>Sling TV ($20) </strong>  - Sitcoms, dramas, sports, kids programs, lifestyle (home/food)
+            </label>
+          </div>
+
+
+
+        </div>
+
+        <div class="col-xs-12 col-md-4" align="left">
+
+         <div class="checkbox">
+            <label>
+              <input type="checkbox" value="50">
+              <strong>PS Vue Basic ($50)</strong> - Sitcoms, dramas, sports, kids, lifestyle
+            </label>
+
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="7.50">
+              <strong>Antenna ($7.50)</strong> - Local news, sports, sitcoms
+            </label>
+          </div>
+
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="3" id="a-la-carte">
+                <strong>iTunes A la Carte ($3/show)</strong> - Sitcoms, dramas, movies
+            </label>
+            <input style="display:none" type="text" value = "" id="a-la-carte-input">
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      </div>
+
+        <!-- Submit Calculator-->
+        <div id="cost4">
+
+        <button id="menu-submit" type="submit" class="btn btn-primary btn-lg animated infinite bounce" disabled="disabled" data-toggle="modal" data-target="#myModal">
+          Submit
+        </button>
+        </div>
+
+        </div>
+
+
+        <!-- Alert Placeholder-->
+
+        <div class="row">
+
+          <div class="col-xs-offset-4 col-xs-4">
+              <br>
+
+            <div class="cost_alert_placeholder"></div>
+
+          </div>
+
+        </div>
+
+    </form>
+
+        <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h2 class="modal-title" id="myModalLabel">Recommendation</h2>
+            </div>
+            <div id="modal-image" class="modal-body"></div>
+            <div id="modal-survey" class="modal-body"></div>
+            <div id="modal-calculate" class="modal-body"></div>
+            <div class="modal-footer">
+
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button id="reset" type="button" class="btn btn-primary" data-dismiss="modal">Repeat Survey</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="footer">
+
+    </footer>
+ <!-- jQuery -->
+    <script src="javascripts/jquery.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="javascripts/jquery.easing.min.js"></script>
+    <script src="javascripts/scrolling-nav.js"></script>
+    <script type="text/javascript" src="javascripts/dom.js"></script>
+    <script type="text/javascript" src="javascripts/utility.js"></script>
+    <script type="text/javascript" src="javascripts/questions.js"></script>
+    <script type="text/javascript" src="javascripts/cost.js"></script>
+</body>
+
+</html>
+
+
