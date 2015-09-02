@@ -11,13 +11,13 @@ $(document).on('ready', function() {
 ///Monthly Bill Input///
 ////////////////////////
 
-//    $('#monthly-cable-cost').on('change', function() {
-//   if ($(':button')[1].disabled === true) {
-//       $(':button')[1].disabled = false;
-//       // $('#cost1').hide();
-//       // $('#cost2').show();
-//   }
-// });
+   $('#monthly-cable-cost').on('change', function() {
+  if ($(':button')[1].disabled === true) {
+      $(':button')[1].disabled = false;
+      // $('#cost1').hide();
+      // $('#cost2').show();
+  }
+});
 });
 
 
